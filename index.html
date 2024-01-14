@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- fontawsome cdn -->
+  <script src="https://kit.fontawesome.com/38c8d5749f.js" crossorigin="anonymous"></script>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="wrapper">
+      <div class="left-side-container">
+          <div><img class="logo" src="./images/logo.svg" alt=""></div>
+          <div class="info">
+            <h1><span>we're</span> coming soon</h1>
+            <p>Hello fellow shoppers! We're currently building our new fashion store.
+              Add your email below to stay up-to-date with announcements and our launch deals.
+            </p>
+          </div>
+
+          <form action="#" class="form" id="form">
+            <label for="email">
+              <input type="text" name="email" class="form-input" id="email" placeholder="Email Address">
+            </label>
+            <button class="form-button">
+              <img src="images/icon-error.svg" alt="error" class="error-icon" id="error_icon">
+              <img src="images/icon-arrow.svg" alt="button" class="icon-right">
+            </button>
+            <span class="error-msg" id="error_text"></span>
+          </form>
+      </div>
+
+      <div class="right-side-container">
+        <img src="./images/hero-desktop.jpg" alt="">
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Ben Wegener</a>.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
